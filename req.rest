@@ -1,0 +1,8 @@
+// Валидный запрос
+GET http://127.0.0.1:5000/api/convert?from=RUB&to=EUR&amount=1300
+###
+// Невалидный запрос - неизвестная валюта from
+GET http://127.0.0.1:5000/api/convert?from=SOMETHING&to=RUB&amount=1300
+###
+// Валидный запрос, чтобы узнать всевозможные валюты
+GET http://127.0.0.1:5000/api/rates

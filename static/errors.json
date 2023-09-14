@@ -1,0 +1,17 @@
+{
+    "not_all_parameters_given" : {
+        "code" : 400,
+        "problem" : "Not all parameters were given",
+        "message": "Please make sure that you've provided all the required parameters: from, to and amount"
+    },
+    "not_a_number" : {
+        "code" : 400,
+        "problem" : "Given value to amount parameter is not a valid number",
+        "message" : "Please make sure that given amount to convert is a valid number"
+    },
+    "no_such_currency_to_convert_to" : {
+        "code" : 400,
+        "problem" : "No such currency",
+        "message" : "Please make sure that given currency you want to convert to is allowed or visit https://www.exchangerate-api.com/docs/free to find out what currencies are available"
+    }
+}
